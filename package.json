@@ -1,9 +1,9 @@
 {
   "name": "library-app",
   "version": "0.0.0",
-  "description": "Small description for library-app goes here",
+  "description": "Library App built as a challenge proposed by Peerdustry",
   "license": "MIT",
-  "author": "",
+  "author": "Jorsi Ramos",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -40,5 +40,9 @@
   "engines": {
     "node": "^4.5 || 6.* || >= 7.*"
   },
-  "private": true
+  "private": true,
+  "dependencies": {
+    "ember-cli-bootstrap-sassy": "^0.5.6",
+    "ember-cli-sass": "^7.0.0"
+  }
 }
